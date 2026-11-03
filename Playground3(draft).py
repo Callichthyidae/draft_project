@@ -1,11 +1,11 @@
-so_bi_mat = 7
-du_doan = int(input("Choose a number from 1-10: "))
+secret_number = 7
+guess = int(input("Choose a number from 1-10: "))
 
-while du_doan != so_bi_mat:
+while guess != secret_number:
     du_doan = int(input("Guess again: "))
-    if du_doan == so_bi_mat:
+    if guess == secret_number:
         print("Right!")
-    elif du_doan > so_bi_mat:
+    elif guess > secret_number:
         print("Too high!")
     else:
         print("Too low!")
